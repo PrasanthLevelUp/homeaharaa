@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>jQuery Alert Dialogs</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<meta name="description" content="This is a demonstration page." />
+		<meta name="keywords" content="alert, confirm, prompt, demo" />
+		
+		
+		
+		<!-- Dependencies -->
+
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/jquery.ui.draggable.js" type="text/javascript"></script>
+		
+		<!-- Core files -->
+		<script src="js/jquery.alerts.js" type="text/javascript"></script>
+		<link href="css/jquery.alerts.css" rel="stylesheet" type="text/css" media="screen" />
+		
+		<!-- Example script -->
+		<script type="text/javascript">
+			
+			$(document).ready( function() {
+				
+				var a=10;
+				$("#alert_button").click( function() {
+					jAlert('Amount:-'+a+'  is successfully Transfer', 'Payment Alert');
+				});
+			});
+			
+		</script>
+
+		
+	</head>
+	
+	<body>
+		
+		<p>
+				<input id="alert_button" type="button" value="Show Alert" />
+			</p>
+		</fieldset>
+		
+		
+		
+	</body>
+
+	
+</html>
