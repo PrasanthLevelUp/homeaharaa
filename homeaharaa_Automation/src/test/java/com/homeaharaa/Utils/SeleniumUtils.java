@@ -1,4 +1,4 @@
-package com.mycustomgun.Utils;
+package com.homeaharaa.Utils;
 
 import java.io.IOException;
 
@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
-import com.mycustomgun.TestBase.TestBase;
+import com.homeaharaa.TestBase.TestBase;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class SeleniumUtils extends TestBase {

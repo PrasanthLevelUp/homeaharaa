@@ -1,4 +1,4 @@
-package com.mycustomgun.TestRunner;
+package com.homeaharaa.TestRunner;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.Assertion;
