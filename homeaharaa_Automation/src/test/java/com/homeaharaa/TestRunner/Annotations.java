@@ -1,4 +1,4 @@
-package com.mycustomgun.TestRunner;
+package com.homeaharaa.TestRunner;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
