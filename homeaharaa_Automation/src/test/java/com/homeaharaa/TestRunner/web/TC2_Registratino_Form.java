@@ -1,4 +1,4 @@
-package com.mycustomgun.TestRunner.web;
+package com.homeaharaa.TestRunner.web;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -6,9 +6,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.mycustomgun.TestBase.TestBase;
-import com.mycustomgun.pages.HomePage;
-import com.mycustomgun.pages.RegistrationPage;
+import com.homeaharaa.TestBase.TestBase;
+import com.homeaharaa.pages.HomePage;
+import com.homeaharaa.pages.RegistrationPage;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class TC2_Registratino_Form extends TestBase{
@@ -29,13 +29,7 @@ public class TC2_Registratino_Form extends TestBase{
 	public void customer_Registraion() throws InterruptedException {
 		try {
 			test = report.startTest(getData("Description"));
-			test.log(LogStatus.INFO, "Test Started" + test.getStartedTime());
-			homepage.clickLogin();
-			registrationpage = PageFactory.initElements(driver, RegistrationPage.class);
-			registrationpage.fillExcel();
-			registrationpage.Signup(getData("FirstName"),getData("LastName"),getData("Email"),getData("Password"));
-			homepage = PageFactory.initElements(driver, HomePage.class);
-			homepage.Login(getData("Email"),getData("Password"));			
+			test.log(LogStatus.INFO, "Test Started" + test.getStartedTime());		
 		} catch (Exception ex) {
 			System.out.println("Msg" + ex.getMessage());
 		}

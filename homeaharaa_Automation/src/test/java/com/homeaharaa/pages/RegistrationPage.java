@@ -1,4 +1,4 @@
-package com.mycustomgun.pages;
+package com.homeaharaa.pages;
 
 import java.io.IOException;
 import java.util.List;
@@ -9,10 +9,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.testng.Assert;
 
-import com.mycustomgun.TestBase.TestBase;
-import com.mycustomgun.Utils.CommonUtils;
-import com.mycustomgun.Utils.NadaEMailService;
-import com.mycustomgun.Utils.SeleniumUtils;
+import com.homeaharaa.TestBase.TestBase;
+import com.homeaharaa.Utils.CommonUtils;
+import com.homeaharaa.Utils.NadaEMailService;
+import com.homeaharaa.Utils.SeleniumUtils;
 
 public class RegistrationPage extends TestBase{
 	
