@@ -1,4 +1,4 @@
-package com.mycustomgun.pages;
+package com.homeaharaa.pages;
 
 import java.util.List;
 
@@ -11,18 +11,18 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.testng.Assert;
 
-import com.mycustomgun.TestBase.TestBase;
-import com.mycustomgun.Utils.SeleniumUtils;
+import com.homeaharaa.TestBase.TestBase;
+import com.homeaharaa.Utils.SeleniumUtils;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class HomePage extends TestBase {
+public class CustomPowderPage extends TestBase {
 
 	static WebDriver driver;
 
 	SeleniumUtils seleutils = new SeleniumUtils();
 
-	public HomePage(WebDriver ldriver) {
-		driver = ldriver;
+	public CustomPowderPage(WebDriver ldriver) {
+		this.driver = ldriver;
 
 	}
 
@@ -71,53 +71,22 @@ public class HomePage extends TestBase {
 	public WebElement totalpriceincart;
 	@FindBy(xpath = "//div[contains(@class,'elementor-widget-wp-widget-sw_top')]//div[@class='cart-right']//span[contains(@class,'minicart-number')]")
 	public WebElement totalitemincart;
-
-	// div[@id='contents']//section//div[@id='latest_sw_woo_tab_slider_1']//div[
-	// @aria-hidden='false']//h4//a
-
+	
+	//div[@id='contents']//section//div[@id='latest_sw_woo_tab_slider_1']//div[ @aria-hidden='false']//h4//a
+	
+	
 	@FindBys(@FindBy(xpath = "//div[@id='contents']//section//div[contains(@id,'latest_sw_woo_tab_slider')]"))
 	public List<WebElement> allsections;
-
-	public SweetPage sweetpage() {
-
-		return new SweetPage(driver);
-
+	
+	public void sweetpage() {
+		
 	}
+	
+	
 
-	public SnackPage snackpage() {
-
-		return new SnackPage(driver);
-
-	}
-
-	public GroceriesPage groceriespage() {
-
-		return new GroceriesPage(driver);
-
-	}
-
-	public CustomPowderPage custompowderpage() {
-
-		return new CustomPowderPage(driver);
-
-	}
-
-	public ReadyPowderPage readypowderpage() {
-
-		return new ReadyPowderPage(driver);
-
-	}
-
-	public PapadPage papadpage() {
-
-		return new PapadPage(driver);
-
-	}
-
-	public UtensilsPage utensilspage() {
-
-		return new UtensilsPage(driver);
-
-	}
-
+	
+	
+	
+	
+	
 }

@@ -1,4 +1,4 @@
-package com.mycustomgun.TestRunner.web;
+package com.homeaharaa.TestRunner.web;
 
 
 import org.openqa.selenium.WebDriver;
@@ -8,8 +8,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.mycustomgun.TestBase.TestBase;
-import com.mycustomgun.pages.HomePage;
+import com.homeaharaa.TestBase.TestBase;
+import com.homeaharaa.pages.HomePage;
 import com.relevantcodes.extentreports.LogStatus;
 
 //@Listeners(com.info.TestRunner.Listner.class)

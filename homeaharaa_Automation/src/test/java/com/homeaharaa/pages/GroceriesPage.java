@@ -1,4 +1,4 @@
-package com.mycustomgun.pages;
+package com.homeaharaa.pages;
 
 import java.util.List;
 
@@ -11,17 +11,17 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.testng.Assert;
 
-import com.mycustomgun.TestBase.TestBase;
-import com.mycustomgun.Utils.SeleniumUtils;
+import com.homeaharaa.TestBase.TestBase;
+import com.homeaharaa.Utils.SeleniumUtils;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class PapadPage extends TestBase {
+public class GroceriesPage extends TestBase {
 
 	static WebDriver driver;
 
 	SeleniumUtils seleutils = new SeleniumUtils();
 
-	public PapadPage(WebDriver ldriver) {
+	public GroceriesPage(WebDriver ldriver) {
 		this.driver = ldriver;
 
 	}

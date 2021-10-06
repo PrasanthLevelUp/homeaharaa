@@ -1,4 +1,4 @@
-package com.mycustomgun.TestRunner.web;
+package com.homeaharaa.TestRunner.web;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -6,9 +6,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.mycustomgun.TestBase.TestBase;
-import com.mycustomgun.pages.HomePage;
-import com.mycustomgun.pages.RegistrationPage;
+import com.homeaharaa.TestBase.TestBase;
+import com.homeaharaa.pages.HomePage;
+import com.homeaharaa.pages.RegistrationPage;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class TC2_Registratino_Form extends TestBase{

@@ -20,7 +20,7 @@
     <reportName></reportName>
     
     <!-- report headline - displayed at top-nav, after reportHeadline -->
-    <reportHeadline>My Custom Gun Automation Testing</reportHeadline>
+    <reportHeadline>Homeaharaa Automation Testing</reportHeadline>
     
     <!-- global date format override -->
     <!-- defaults to yyyy-MM-dd -->
