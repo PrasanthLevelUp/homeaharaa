@@ -29,13 +29,7 @@ public class TC2_Registratino_Form extends TestBase{
 	public void customer_Registraion() throws InterruptedException {
 		try {
 			test = report.startTest(getData("Description"));
-			test.log(LogStatus.INFO, "Test Started" + test.getStartedTime());
-			homepage.clickLogin();
-			registrationpage = PageFactory.initElements(driver, RegistrationPage.class);
-			registrationpage.fillExcel();
-			registrationpage.Signup(getData("FirstName"),getData("LastName"),getData("Email"),getData("Password"));
-			homepage = PageFactory.initElements(driver, HomePage.class);
-			homepage.Login(getData("Email"),getData("Password"));			
+			test.log(LogStatus.INFO, "Test Started" + test.getStartedTime());		
 		} catch (Exception ex) {
 			System.out.println("Msg" + ex.getMessage());
 		}

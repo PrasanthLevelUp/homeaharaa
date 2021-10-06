@@ -31,8 +31,7 @@ public class TC1_Validate_Login extends TestBase {
 			test = report.startTest(getData("Description"));
 			test.log(LogStatus.INFO, "Test Started" + test.getStartedTime());
 			//homepage.Login();
-			homepage.clickLogin();
-			homepage.Login(getData("LoginUserName"),getData("LoginPassword"));
+			
 		} catch (Exception ex) {
 			System.out.println("Msg" + ex.getMessage());
 		}
