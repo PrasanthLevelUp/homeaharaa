@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="Regression"/>
-      </run>
-    </groups>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="5" name="Test(failed)" parallel="methods">
     <classes>
-      <class name="com.mycustomgun.TestRunner.web.RegressionGuestUserCreateAndOrder">
+      <class name="com.homeaharaa.TestRunner.web.TC_ReadymadePowders">
         <methods>
-          <include name="getReport"/>
-          <include name="launchApp"/>
-          <include name="guestUser_CreateGun_PlaceOrder"/>
           <include name="endTest"/>
-          <include name="Reportsetup"/>
           <include name="endApp"/>
+          <include name="getReport"/>
+          <include name="customer_Registraion"/>
+          <include name="Reportsetup"/>
+          <include name="launchApp"/>
         </methods>
-      </class> <!-- com.mycustomgun.TestRunner.web.RegressionGuestUserCreateAndOrder -->
+      </class> <!-- com.homeaharaa.TestRunner.web.TC_ReadymadePowders -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
