@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
 import com.homeaharaa.TestBase.TestBase;
@@ -211,5 +212,8 @@ public class SeleniumUtils extends TestBase {
 		setData("Current_Price", Actualprice1);
 		asserstEqualsvalues(expectedval, Actualprice1);
 	}
-
+public void doubleClick(WebDriver driver,WebElement ele){
+	Actions action= new Actions(driver);
+	action.doubleClick(ele);
+}
 }
