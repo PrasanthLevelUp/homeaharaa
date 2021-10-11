@@ -33,6 +33,7 @@ public class TC_ReadymadePowders extends TestBase {
 			test = report.startTest(getData("Description"));
 			test.log(LogStatus.INFO, "Test Started" + test.getStartedTime());
 			readymade=homepage.clickReadymadePowder();
+			readymade.assertPageHeader();
 			
 		} catch (Exception ex) {
 			System.out.println("Msg" + ex.getMessage());
