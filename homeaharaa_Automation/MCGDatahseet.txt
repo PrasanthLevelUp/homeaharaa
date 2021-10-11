@@ -1,0 +1,4 @@
+TCName    Description    LoginUserName    LoginPassword    
+TC1_Validate_Login    User able to login with valid Data    admin@mycg.com    admin@mycg.com    
+TC2_Registratino_Form    Create a new User    sfgsfg    sfgsfgrg    
+TC3_GunBuilder_PageValidation    Validate Gunduilder Link    admin@mycg.com    admin@mycg.com    
