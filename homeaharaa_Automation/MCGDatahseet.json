@@ -1,0 +1,20 @@
+{
+	"Row 3": {
+		"LoginUserName": "admin@mycg.com",
+		"Description": "Validate Gunduilder Link",
+		"TCName": "TC3_GunBuilder_PageValidation",
+		"LoginPassword": "admin@mycg.com"
+	},
+	"Row 2": {
+		"LoginUserName": "sfgsfg",
+		"Description": "Create a new User",
+		"TCName": "TC2_Registratino_Form",
+		"LoginPassword": "sfgsfgrg"
+	},
+	"Row 1": {
+		"LoginUserName": "admin@mycg.com",
+		"Description": "User able to login with valid Data",
+		"TCName": "TC1_Validate_Login",
+		"LoginPassword": "admin@mycg.com"
+	}
+}
