@@ -30,6 +30,8 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class TestBase {
 
 	public static String dest;
@@ -73,7 +75,7 @@ public class TestBase {
 					.addSystemInfo("User", "Automation").addSystemInfo("Project Name", "mycustomgun.com");
 			report.loadConfig(new File(System.getProperty("user.dir") + "\\extent-config.xml"));
 
-			FileUtils.cleanDirectory(new File(System.getProperty("user.dir")+"\\Screenshot"));
+			//FileUtils.cleanDirectory(new File(System.getProperty("user.dir") + "\\Screenshot"));
 			this.readfile();
 		} catch (Exception ex) {
 			System.out.println("Issue is" + ex.getMessage());
@@ -112,21 +114,21 @@ public class TestBase {
 		if (browsername.equalsIgnoreCase("Firefox")) {
 			driver = new FirefoxDriver();
 		} else if (browsername.equalsIgnoreCase("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-		}else if (browsername.equalsIgnoreCase("Headless")) {
+		} else if (browsername.equalsIgnoreCase("Headless")) {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("headless");
-			//options.addArguments("screenshot");
-			//options.addArguments("window-size=1980,960");
-			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
-			 driver = new ChromeDriver(options);
-			
+			// options.addArguments("screenshot");
+			// options.addArguments("window-size=1980,960");
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver(options);
+
 		}
 		driver.manage().timeouts().pageLoadTimeout(80, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		driver.navigate().to(url);
+		driver.get(url);
 		return driver;
 	}
 
@@ -165,7 +167,9 @@ public class TestBase {
 	}
 
 	public void readfile() throws IOException {
-		excelfile = new File("./src/main/resources/TestDataSheet.xlsx");
+		
+		String filePath = System.getProperty("user.dir")+"/src/main/resources/TestDataSheet.xlsx";
+		excelfile = new File(filePath);
 		excelinputStream = new FileInputStream(excelfile);
 		Workbook = new XSSFWorkbook(excelinputStream);
 		sheet = Workbook.getSheet(prop.getProperty("sheetname"));

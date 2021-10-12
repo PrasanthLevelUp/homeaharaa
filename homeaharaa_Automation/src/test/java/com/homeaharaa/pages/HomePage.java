@@ -2,10 +2,10 @@ package com.homeaharaa.pages;
 
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
@@ -82,8 +82,9 @@ public class HomePage extends TestBase {
 	public SweetPage sweetpage() {
 
 		return new SweetPage(driver);
+
 	}
-public void selectItem(){}
+
 	public SnackPage snackpage() {
 
 		return new SnackPage(driver);
@@ -118,6 +119,15 @@ public void selectItem(){}
 
 		return new UtensilsPage(driver);
 
+	}
+	
+	//Methods
+	
+	public ReadyPowderPage clickReadymadePowder() {
+		Actions act = new Actions(driver);
+		act.moveToElement(spicesdropdown).perform();
+		readymadepowderdropdown.click();
+		return new ReadyPowderPage(driver);
 	}
 
 }
