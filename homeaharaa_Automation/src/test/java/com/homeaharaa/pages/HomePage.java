@@ -2,6 +2,7 @@ package com.homeaharaa.pages;
 
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -81,9 +82,8 @@ public class HomePage extends TestBase {
 	public SweetPage sweetpage() {
 
 		return new SweetPage(driver);
-
 	}
-
+public void selectItem(){}
 	public SnackPage snackpage() {
 
 		return new SnackPage(driver);
