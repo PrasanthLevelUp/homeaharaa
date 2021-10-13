@@ -212,8 +212,13 @@ public class SeleniumUtils extends TestBase {
 		setData("Current_Price", Actualprice1);
 		asserstEqualsvalues(expectedval, Actualprice1);
 	}
-public void doubleClick(WebDriver driver,WebElement ele){
-	Actions action= new Actions(driver);
+public void doubleClick(WebElement ele){
+	Actions action= new Actions(TestBase.driver);
 	action.doubleClick(ele);
 }
+
+    public void mouseHover(WebElement ele) {
+		Actions action= new Actions(TestBase.driver);
+		action.moveToElement(ele).perform();
+    }
 }

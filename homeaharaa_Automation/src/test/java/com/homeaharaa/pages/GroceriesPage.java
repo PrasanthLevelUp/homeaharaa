@@ -1,16 +1,16 @@
 package com.homeaharaa.pages;
 
-import java.util.List;
-import java.util.Optional;
-
-import com.google.common.io.ByteStreams;
-import org.openqa.selenium.*;
-import org.openqa.selenium.support.*;
-import org.testng.Assert;
-
 import com.homeaharaa.TestBase.TestBase;
 import com.homeaharaa.Utils.SeleniumUtils;
-import com.relevantcodes.extentreports.LogStatus;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
+import java.util.NoSuchElementException;
 
 public class GroceriesPage extends TestBase {
 
@@ -23,7 +23,7 @@ public class GroceriesPage extends TestBase {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//ul[@id='product_listing']//li//child::h4")
+    @FindBy(xpath = "//ul[@id='product_listing']//li//child::h4/a")
     @CacheLookup
     public List<WebElement> productNames;
 
@@ -34,29 +34,61 @@ public class GroceriesPage extends TestBase {
     @FindBy(xpath = "//input[@type='number']")
     @CacheLookup
     public WebElement quantity;
+    @FindBy(xpath = "//ul[@class='page-numbers']/li[last()-1]")
+    @CacheLookup
+    public WebElement totalPages;
     public String minPrice = "(//a[text()='PRODUCT']//ancestor::div[@class='item-content products-content']//child::span[@class='woocommerce-Price-amount amount'])[1]";
     public String maxPrice = "(//a[text()='PRODUCT']//ancestor::div[@class='item-content products-content']//child::span[@class='woocommerce-Price-amount amount'])[2]";
     public String weight = "//*[@title='WEIGHT']//span";
 
 
+
     public void selectProduct(String strName) {
-        WebElement z = productNames.stream().filter(x -> x.getText().equalsIgnoreCase(strName.toUpperCase())).findFirst().get();
+        WebElement z = null;
+        Integer g= Integer.parseInt(totalPages.getText());
+        for (int i = 2; i <= g+1; i++) {
+            try {
+                z = productNames.stream().filter(x -> x.getText().equalsIgnoreCase(strName.toUpperCase())).findFirst().get();
+                break;
+            } catch (StaleElementReferenceException e) {
+                PageFactory.initElements(driver, this);
+                i-=1;
+            } catch (NoSuchElementException e) {
+                driver.findElement(By.xpath("//a[text()='" + i + "']")).click();
+            }
+        }
         z.click();
     }
 
-    public String  getMinPrice(String strName) {
-       return driver.findElement(By.xpath(minPrice.replace("PRODUCT", strName.toUpperCase()))).getText();
+    public boolean retryingFindClick(WebElement ele) {
+        boolean result = false;
+        int attempts = 0;
+        while (attempts < 2) {
+            try {
+                ele.click();
+                result = true;
+                break;
+            } catch (StaleElementReferenceException e) {
+            }
+            attempts++;
+        }
+        return result;
+    }
+
+
+    public String getMinPrice(String strName) {
+        return driver.findElement(By.xpath(minPrice.replace("PRODUCT", strName.toUpperCase()))).getText();
     }
 
     public String getMaxPrice(String strName) {
-       return driver.findElement(By.xpath(maxPrice.replace("PRODUCT", strName.toUpperCase()))).getText();
+        return driver.findElement(By.xpath(maxPrice.replace("PRODUCT", strName.toUpperCase()))).getText();
     }
 
     public String getPriceBasedWeightAndQuantity(String strName, String strWeight, Integer quantity) {
         selectProduct(strName);
         selectWeight(strWeight);
         selectQuantity(quantity);
-       return price.getText();
+        return price.getText();
     }
 
     public void selectWeight(String grams) {

@@ -40,7 +40,7 @@ public class TestBase {
 	public static ExtentTest test;
 	public static FileReader propreader;
 	public static Properties prop;
-	public WebDriver driver;
+	public static WebDriver driver;
 	public static FileInputStream excelinputStream;
 	public static FileOutputStream exceloutputStream;
 	public static File excelfile;
@@ -110,7 +110,7 @@ public class TestBase {
 		report.close();
 	}
 
-	public WebDriver startBrowser(String browsername, String url) {
+	public static WebDriver startBrowser(String browsername, String url) {
 		if (browsername.equalsIgnoreCase("Firefox")) {
 			driver = new FirefoxDriver();
 		} else if (browsername.equalsIgnoreCase("Chrome")) {
