@@ -59,8 +59,8 @@ public class HomePage extends TestBase {
     public WebElement spicesdropdown;
     @FindBy(xpath = "//ul[@class='dropdown-menu']//span[contains(text(),'Groceries / Whole Spices')]")
     public WebElement groceriesdropdown;
-    @FindBy(xpath = "//ul[@class='dropdown-menu']//span[contains(text(),'Custom Powders')]")
-    public WebElement custompowderdropdown;
+    @FindBy(xpath = "//ul[@class='dropdown-menu']//span[contains(text(),'Custom Spice Mix')]")
+    public WebElement customSpiceMixDropDown;
     @FindBy(xpath = "//ul[@class='dropdown-menu']//span[contains(text(),'Readymade Powders')]")
     public WebElement readymadepowderdropdown;
     @FindBy(xpath = "//ul[@class='dropdown-menu']//span[contains(text(),'Papad')]")
@@ -102,6 +102,13 @@ public class HomePage extends TestBase {
         groceriesdropdown.click();
         Assert.assertTrue(driver.getCurrentUrl().contains("groceries-whole-spices"));
         return new GroceriesPage(driver);
+
+    }
+    public SpiceMix spicespage() {
+        seleutils.mouseHover(spicesdropdown);
+        customSpiceMixDropDown.click();
+        Assert.assertTrue(driver.getCurrentUrl().contains("custom-spice-mix"));
+        return new SpiceMix(driver);
 
     }
 

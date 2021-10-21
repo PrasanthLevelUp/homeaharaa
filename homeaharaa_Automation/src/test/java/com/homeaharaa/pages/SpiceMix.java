@@ -1,27 +1,26 @@
 package com.homeaharaa.pages;
 
-import com.codoid.products.fillo.Recordset;
 import com.homeaharaa.TestBase.TestBase;
 import com.homeaharaa.Utils.SeleniumUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.DataProvider;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 
-public class GroceriesPage extends TestBase {
+public class SpiceMix extends TestBase{
 
     static WebDriver driver;
 
     SeleniumUtils seleutils = new SeleniumUtils();
 
-    public GroceriesPage(WebDriver ldriver) {
+    public SpiceMix(WebDriver ldriver) {
         this.driver = ldriver;
         PageFactory.initElements(driver, this);
     }
@@ -30,11 +29,15 @@ public class GroceriesPage extends TestBase {
     @CacheLookup
     public List<WebElement> productNames;
 
-    @FindBy(xpath = "//span[@class='variable-price']//span[@class='woocommerce-Price-amount amount']")
+    @FindBy(xpath = "//div[contains(text(),'Total price: ')]//span[@class='woocommerce-Price-amount amount']")
     @CacheLookup
     public WebElement price;
+    @FindBy(xpath = "(//div[@class='wooco_component_name']/following-sibling::div//a[@class='dd-selected'])[1]")
+    @CacheLookup
+    public WebElement selectWeightDropDown;
 
-    @FindBy(xpath = "//input[@type='number']")
+
+    @FindBy(xpath = "//div[@class='quantity buttons_added']///input[@type='number']")
     @CacheLookup
     public WebElement quantity;
     @FindBy(xpath = "//ul[@class='page-numbers']/li[last()-1]")
@@ -42,7 +45,7 @@ public class GroceriesPage extends TestBase {
     public WebElement totalPages;
     public String minPrice = "(//a[text()='PRODUCT']//ancestor::div[@class='item-content products-content']//child::span[@class='woocommerce-Price-amount amount'])[1]";
     public String maxPrice = "(//a[text()='PRODUCT']//ancestor::div[@class='item-content products-content']//child::span[@class='woocommerce-Price-amount amount'])[2]";
-    public String weight = "//*[@title='WEIGHT']//span";
+    public String weight = "//span[@class='dd-pointer dd-pointer-down dd-pointer-up']/parent::div/following-sibling::ul/li/a/label[contains(.,'- WEIGHT')]";
 
 
     public void selectProduct(String strName) {
@@ -83,7 +86,8 @@ public class GroceriesPage extends TestBase {
 
     public void selectWeight(String grams) {
         String gram = grams.replaceAll(" Grams| gram|Gram|grams|Grams| grams", "g");
-            driver.findElement(By.xpath(weight.replace("WEIGHT", gram))).click();
+        selectWeightDropDown.click();
+        driver.findElement(By.xpath(weight.replace("WEIGHT", gram))).click();
     }
 
     public void selectQuantity(Integer grams) {
@@ -99,21 +103,21 @@ public class GroceriesPage extends TestBase {
 
     @DataProvider(name = "Product-Rates")
     public static Object[][] dpMethod() {
-        String query = "Select * from Groceries";
+        String query = "Select * from Spices";
         ArrayList<HashMap<String, String>> ar = TestBase.readExcelUsingFillo("SellingPRICEOFEACHPRODUCT Full.xlsx", query);
         return new Object[][]{
-                {"Grocaries", ar}
+                {"Spices", ar}
         };
     }
 
     public String getPrice() {
         String val=null;
         try {
-           val= price.getText();
+            val= price.getText();
         } catch (StaleElementReferenceException e) {
             PageFactory.initElements(driver, this);
         }
         return price.getText();
     }
-}
 
+}
