@@ -1,248 +1,248 @@
-{
-	"Row 30": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Mothi laddu"
-	},
-	"Row 31": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Panaras alwa"
-	},
-	"Row 10": {
+[
+	{
 		"250 gm": "385.0",
 		"500 gm": "770.0",
 		"1 kg": "1540.0",
-		"Name of the items": "Kaju Katlli"
+		"Name of the items": "Badam alwa"
 	},
-	"Row 32": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Paneer jamun "
-	},
-	"Row 11": {
-		"250 gm": "235.0",
-		"500 gm": "470.0",
-		"1 kg": "940.0",
-		"Name of the items": "Chandrakala"
-	},
-	"Row 33": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Rasagulla"
-	},
-	"Row 12": {
-		"250 gm": "385.0",
-		"500 gm": "770.0",
-		"1 kg": "1540.0",
-		"Name of the items": "Choco barfi"
-	},
-	"Row 34": {
-		"250 gm": "275.0",
-		"500 gm": "550.0",
-		"1 kg": "1100.0",
-		"Name of the items": "Rasamallai"
-	},
-	"Row 13": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Dates Barfi"
-	},
-	"Row 35": {
-		"250 gm": "195.0",
-		"500 gm": "390.0",
-		"1 kg": "780.0",
-		"Name of the items": "Special laddu"
-	},
-	"Row 14": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Dry fruits alwa"
-	},
-	"Row 36": {
-		"250 gm": "275.0",
-		"500 gm": "550.0",
-		"1 kg": "1100.0",
-		"Name of the items": "Special Mysorepak"
-	},
-	"Row 15": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Dry jamun"
-	},
-	"Row 37": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Special soanpapdi"
-	},
-	"Row 16": {
-		"250 gm": "285.0",
-		"500 gm": "570.0",
-		"1 kg": "1140.0",
-		"Name of the items": "Horlicks Mysorepak"
-	},
-	"Row 38": {
-		"250 gm": "195.0",
-		"500 gm": "390.0",
-		"1 kg": "780.0",
-		"Name of the items": "Sweet Boondhi"
-	},
-	"Row 17": {
-		"250 gm": "225.0",
-		"500 gm": "450.0",
-		"1 kg": "900.0",
-		"Name of the items": "Jangiri"
-	},
-	"Row 39": {
-		"250 gm": "235.0",
-		"500 gm": "470.0",
-		"1 kg": "940.0",
-		"Name of the items": "Wheat alwa"
-	},
-	"Row 18": {
-		"250 gm": "TBD",
-		"500 gm": "TBD",
-		"1 kg": "TBD",
-		"Name of the items": "Kaju katli"
-	},
-	"Row 19": {
-		"250 gm": "385.0",
-		"500 gm": "770.0",
-		"1 kg": "1540.0",
-		"Name of the items": "Kaju sonali roll"
-	},
-	"Row 40": {
-		"250 gm": "385.0",
-		"500 gm": "770.0",
-		"1 kg": "1540.0",
-		"Name of the items": "Kaju flower"
-	},
-	"Row 41": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Big jamun"
-	},
-	"Row 9": {
-		"250 gm": "275.0",
-		"500 gm": "550.0",
-		"1 kg": "1100.0",
-		"Name of the items": "Carrot burfi"
-	},
-	"Row 20": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Kalakandu"
-	},
-	"Row 8": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Carrot alwa"
-	},
-	"Row 21": {
-		"250 gm": "385.0",
-		"500 gm": "770.0",
-		"1 kg": "1540.0",
-		"Name of the items": "Karupatti Mysorepak"
-	},
-	"Row 7": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Boost soanpapdi"
-	},
-	"Row 22": {
-		"250 gm": "385.0",
-		"500 gm": "770.0",
-		"1 kg": "1540.0",
-		"Name of the items": "Karupatti paruthipal alwa"
-	},
-	"Row 6": {
-		"250 gm": "235.0",
-		"500 gm": "470.0",
-		"1 kg": "940.0",
-		"Name of the items": "Bombay alwa"
-	},
-	"Row 23": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Milk alwa"
-	},
-	"Row 24": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Milk barfi"
-	},
-	"Row 25": {
-		"250 gm": "275.0",
-		"500 gm": "550.0",
-		"1 kg": "1100.0",
-		"Name of the items": "Milk Cake"
-	},
-	"Row 26": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Milk Gova"
-	},
-	"Row 27": {
-		"250 gm": "285.0",
-		"500 gm": "570.0",
-		"1 kg": "1140.0",
-		"Name of the items": "Milk Mysorepak"
-	},
-	"Row 28": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Milk peda"
-	},
-	"Row 29": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Moothi Barfi"
-	},
-	"Row 5": {
-		"250 gm": "265.0",
-		"500 gm": "530.0",
-		"1 kg": "1060.0",
-		"Name of the items": "Bengali sandwich"
-	},
-	"Row 4": {
-		"250 gm": "275.0",
-		"500 gm": "550.0",
-		"1 kg": "1100.0",
-		"Name of the items": "Basanthi"
-	},
-	"Row 3": {
-		"250 gm": "225.0",
-		"500 gm": "450.0",
-		"1 kg": "900.0",
-		"Name of the items": "Badusha"
-	},
-	"Row 2": {
+	{
 		"250 gm": "385.0",
 		"500 gm": "770.0",
 		"1 kg": "1540.0",
 		"Name of the items": "Badam barfi"
 	},
-	"Row 1": {
+	{
+		"250 gm": "225.0",
+		"500 gm": "450.0",
+		"1 kg": "900.0",
+		"Name of the items": "Badusha"
+	},
+	{
+		"250 gm": "275.0",
+		"500 gm": "550.0",
+		"1 kg": "1100.0",
+		"Name of the items": "Basanthi"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Bengali sandwich"
+	},
+	{
+		"250 gm": "235.0",
+		"500 gm": "470.0",
+		"1 kg": "940.0",
+		"Name of the items": "Bombay alwa"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Boost soanpapdi"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Carrot alwa"
+	},
+	{
+		"250 gm": "275.0",
+		"500 gm": "550.0",
+		"1 kg": "1100.0",
+		"Name of the items": "Carrot burfi"
+	},
+	{
 		"250 gm": "385.0",
 		"500 gm": "770.0",
 		"1 kg": "1540.0",
-		"Name of the items": "Badam alwa"
+		"Name of the items": "Kaju Katlli"
+	},
+	{
+		"250 gm": "235.0",
+		"500 gm": "470.0",
+		"1 kg": "940.0",
+		"Name of the items": "Chandrakala"
+	},
+	{
+		"250 gm": "385.0",
+		"500 gm": "770.0",
+		"1 kg": "1540.0",
+		"Name of the items": "Choco barfi"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Dates Barfi"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Dry fruits alwa"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Dry jamun"
+	},
+	{
+		"250 gm": "285.0",
+		"500 gm": "570.0",
+		"1 kg": "1140.0",
+		"Name of the items": "Horlicks Mysorepak"
+	},
+	{
+		"250 gm": "225.0",
+		"500 gm": "450.0",
+		"1 kg": "900.0",
+		"Name of the items": "Jangiri"
+	},
+	{
+		"250 gm": "TBD",
+		"500 gm": "TBD",
+		"1 kg": "TBD",
+		"Name of the items": "Kaju katli"
+	},
+	{
+		"250 gm": "385.0",
+		"500 gm": "770.0",
+		"1 kg": "1540.0",
+		"Name of the items": "Kaju sonali roll"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Kalakandu"
+	},
+	{
+		"250 gm": "385.0",
+		"500 gm": "770.0",
+		"1 kg": "1540.0",
+		"Name of the items": "Karupatti Mysorepak"
+	},
+	{
+		"250 gm": "385.0",
+		"500 gm": "770.0",
+		"1 kg": "1540.0",
+		"Name of the items": "Karupatti paruthipal alwa"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Milk alwa"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Milk barfi"
+	},
+	{
+		"250 gm": "275.0",
+		"500 gm": "550.0",
+		"1 kg": "1100.0",
+		"Name of the items": "Milk Cake"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Milk Gova"
+	},
+	{
+		"250 gm": "285.0",
+		"500 gm": "570.0",
+		"1 kg": "1140.0",
+		"Name of the items": "Milk Mysorepak"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Milk peda"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Moothi Barfi"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Mothi laddu"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Panaras alwa"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Paneer jamun "
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Rasagulla"
+	},
+	{
+		"250 gm": "275.0",
+		"500 gm": "550.0",
+		"1 kg": "1100.0",
+		"Name of the items": "Rasamallai"
+	},
+	{
+		"250 gm": "195.0",
+		"500 gm": "390.0",
+		"1 kg": "780.0",
+		"Name of the items": "Special laddu"
+	},
+	{
+		"250 gm": "275.0",
+		"500 gm": "550.0",
+		"1 kg": "1100.0",
+		"Name of the items": "Special Mysorepak"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Special soanpapdi"
+	},
+	{
+		"250 gm": "195.0",
+		"500 gm": "390.0",
+		"1 kg": "780.0",
+		"Name of the items": "Sweet Boondhi"
+	},
+	{
+		"250 gm": "235.0",
+		"500 gm": "470.0",
+		"1 kg": "940.0",
+		"Name of the items": "Wheat alwa"
+	},
+	{
+		"250 gm": "385.0",
+		"500 gm": "770.0",
+		"1 kg": "1540.0",
+		"Name of the items": "Kaju flower"
+	},
+	{
+		"250 gm": "265.0",
+		"500 gm": "530.0",
+		"1 kg": "1060.0",
+		"Name of the items": "Big jamun"
 	}
-}
+]

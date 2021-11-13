@@ -1,44 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="98983" started-at="2021-10-07T10:13:04Z" finished-at="2021-10-07T10:14:43Z">
+  <suite started-at="2021-10-19T14:55:12 IST" name="Default suite" finished-at="2021-10-19T14:57:15 IST" duration-ms="122488">
     <groups>
     </groups>
-    <test name="Test" duration-ms="98983" started-at="2021-10-07T10:13:04Z" finished-at="2021-10-07T10:14:43Z">
-      <class name="com.homeaharaa.TestRunner.web.TC_ReadymadePowders">
-        <test-method status="PASS" signature="Reportsetup()[pri:0, instance:com.homeaharaa.TestRunner.web.TC_ReadymadePowders@3d0f8e03]" name="Reportsetup" is-config="true" duration-ms="3372" started-at="2021-10-07T10:13:04Z" finished-at="2021-10-07T10:13:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Reportsetup -->
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.homeaharaa.TestRunner.web.TC_ReadymadePowders@3d0f8e03]" name="launchApp" is-config="true" duration-ms="30463" started-at="2021-10-07T10:13:07Z" finished-at="2021-10-07T10:13:38Z">
+    <test started-at="2021-10-19T14:55:12 IST" name="Default test" finished-at="2021-10-19T14:57:15 IST" duration-ms="122488">
+      <class name="com.homeaharaa.TestRunner.web.TC1_papadshippingprice">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.homeaharaa.TestRunner.web.TC1_papadshippingprice@49c90a9c]" started-at="2021-10-19T14:55:12 IST" name="launchApp" finished-at="2021-10-19T14:55:44 IST" duration-ms="31696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="customer_Registraion()[pri:0, instance:com.homeaharaa.TestRunner.web.TC_ReadymadePowders@3d0f8e03]" name="customer_Registraion" duration-ms="60550" started-at="2021-10-07T10:13:38Z" description="This test case will validate login" finished-at="2021-10-07T10:14:38Z">
+        <test-method signature="validatesweetitems()[pri:1, instance:com.homeaharaa.TestRunner.web.TC1_papadshippingprice@49c90a9c]" started-at="2021-10-19T14:55:44 IST" name="validatesweetitems" description="Validate all the items" finished-at="2021-10-19T14:57:14 IST" duration-ms="90067" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- customer_Registraion -->
-        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:com.homeaharaa.TestRunner.web.TC_ReadymadePowders@3d0f8e03]" name="getReport" is-config="true" duration-ms="1592" started-at="2021-10-07T10:14:38Z" finished-at="2021-10-07T10:14:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=customer_Registraion status=SUCCESS method=TC_ReadymadePowders.customer_Registraion()[pri:0, instance:com.homeaharaa.TestRunner.web.TC_ReadymadePowders@3d0f8e03] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getReport -->
-        <test-method status="PASS" signature="endApp()[pri:0, instance:com.homeaharaa.TestRunner.web.TC_ReadymadePowders@3d0f8e03]" name="endApp" is-config="true" duration-ms="962" started-at="2021-10-07T10:14:40Z" finished-at="2021-10-07T10:14:41Z">
+        </test-method> <!-- validatesweetitems -->
+        <test-method is-config="true" signature="endApp()[pri:0, instance:com.homeaharaa.TestRunner.web.TC1_papadshippingprice@49c90a9c]" started-at="2021-10-19T14:57:14 IST" name="endApp" finished-at="2021-10-19T14:57:15 IST" duration-ms="528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endApp -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.homeaharaa.TestRunner.web.TC_ReadymadePowders@3d0f8e03]" name="endTest" is-config="true" duration-ms="1984" started-at="2021-10-07T10:14:41Z" finished-at="2021-10-07T10:14:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- com.homeaharaa.TestRunner.web.TC_ReadymadePowders -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.homeaharaa.TestRunner.web.TC1_papadshippingprice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

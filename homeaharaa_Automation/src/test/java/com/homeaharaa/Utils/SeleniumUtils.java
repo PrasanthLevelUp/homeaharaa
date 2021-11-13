@@ -6,6 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import com.homeaharaa.TestBase.TestBase;
@@ -24,6 +26,10 @@ public class SeleniumUtils extends TestBase {
 		return screen;
 	}
 	
+	public void selectbyvisbiletext(WebElement ele, String val) {
+		Select sel = new Select(ele);
+		sel.selectByVisibleText(val);	
+	}
 
 	public void javascriptClick(WebElement ele, WebDriver driver, String desc) {
 		try {
@@ -210,6 +216,11 @@ public class SeleniumUtils extends TestBase {
 		String Actualprice1 = comutils.TotalpriceValidation(Actualprice);
 		setData("Current_Price", Actualprice1);
 		asserstEqualsvalues(expectedval, Actualprice1);
+	}
+	
+	public static void movetoitem(WebDriver driver,WebElement ele) {
+		Actions action = new Actions(driver);
+		action.moveToElement(ele).build().perform();
 	}
 
 }

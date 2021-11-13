@@ -1,8 +1,19 @@
 package com.homeaharaa.Utils;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.math.BigDecimal;
+import java.text.DecimalFormat;
+import java.util.HashMap;
 import java.util.Objects;
+import java.util.Set;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
@@ -63,7 +74,7 @@ public class CommonUtils {
 		int AddedValue = a + b;
 		return String.valueOf(AddedValue);
 	}
-	
+
 	public String addPricecolor(String Current, String NewPrice) {
 		int a = Integer.parseInt(Current);
 		int b = Integer.parseInt(NewPrice);
@@ -76,7 +87,7 @@ public class CommonUtils {
 		value = actual.replace("$", "").trim();
 		return value;
 	}
-	
+
 	public String TotalpriceValidation1(String actual) {
 		String value = null;
 		value = actual.replace("$", "").trim();
@@ -89,7 +100,7 @@ public class CommonUtils {
 		value = actual.replace("+$", "").trim();
 		return value;
 	}
-	
+
 	public String[] expiredate(String date) {
 		String[] split = date.split("/");
 		return split;
@@ -102,4 +113,80 @@ public class CommonUtils {
 		int AddedValue = a - b;
 		return String.valueOf(AddedValue);
 	}
+
+	public static HashMap<Object, Object> readjsondata(String file,String key,String itemname){
+		JSONParser parser = new JSONParser();
+
+		JSONArray a=null;
+		try {
+			a = (JSONArray) parser.parse(new FileReader(file));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+
+		HashMap<Object, Object> pricelist = new HashMap<Object, Object>();
+
+		for (Object o : a) {
+			JSONObject item = (JSONObject) o;
+			String name = (String) item.get(key);
+			if(name.equalsIgnoreCase(itemname)) {
+			for(Object s:item.keySet()) {
+					pricelist.put(s, item.get(s));
+			}
+			System.out.println(pricelist);
+			return pricelist;
+			}
+			// String name = (String) item.get(itemkey);
+		}
+		return pricelist;
+	}
+	
+	public static double convertdo(String str) {
+		//String str1 = str.replace('.', 's');
+		//String[] arr = str1.split("s");
+		//int val = Integer.parseInt(arr[0]);
+		double num = Double.parseDouble(str);
+		return convertto2decimal(num);
+	}
+	public static double convertdo2(String str) {
+		String str1 = str.replace('.', 's');
+		//String[] arr = str1.split("s");
+		//String removechar = str1.replaceAll("[^\\d]", "").trim();
+		String removechar = str1.replaceAll("[^\\w]", "").trim();
+		String str2 = removechar.replace('s', '.');
+		double num = Double.parseDouble(str2);
+		return convertto2decimal(num);
+	}
+	
+	public static double covertdoubl3(String str) {
+		String str1 = str.replace("kg", "").trim();
+		double num = Double.parseDouble(str1);
+		return convertto2decimal(num);
+	}
+	
+	public static double convertto2decimal(double a)
+	{
+	     DecimalFormat f = new DecimalFormat("##.00");
+	     System.out.println(f.format(a));
+	     return Double.parseDouble(f.format(a));
+	}
+	
+	public static double roundToHalf(double x) {
+	    return (double) (Math.ceil(x * 2) / 2);
+	}
+	
+	private static BigDecimal truncateDecimal(double x,int numberofDecimals)
+	{
+	    if ( x > 0) {
+	        return new BigDecimal(String.valueOf(x)).setScale(numberofDecimals, BigDecimal.ROUND_FLOOR);
+	    } else {
+	        return new BigDecimal(String.valueOf(x)).setScale(numberofDecimals, BigDecimal.ROUND_CEILING);
+	    }
+	}
+
+
 }
