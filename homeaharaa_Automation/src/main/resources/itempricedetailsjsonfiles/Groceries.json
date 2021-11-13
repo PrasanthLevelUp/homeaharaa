@@ -1,464 +1,14 @@
-{
-	"Row 50": {
-		"25 Grams": "5.4140625",
-		"NAME OF THE ITEMS": "Urad dal",
-		"50 Grams": "10.828125",
-		"500 Grams": "86.625",
-		"250 Grams": "43.3125",
-		"100 Grams": "21.65625",
-		"1 kg": "173.25"
+[
+	{
+		"25 Grams": "13.5",
+		"NAME OF THE ITEMS": "Ajwain",
+		"50 Grams": "27.0",
+		"500 Grams": "216.0",
+		"250 Grams": "108.0",
+		"100 Grams": "54.0",
+		"1 kg": "432.0"
 	},
-	"Row 51": {
-		"25 Grams": "73.03125",
-		"NAME OF THE ITEMS": "Walnut",
-		"50 Grams": "146.0625",
-		"500 Grams": "1168.5",
-		"250 Grams": "584.25",
-		"100 Grams": "292.125",
-		"1 kg": "2337.0"
-	},
-	"Row 52": {
-		"25 Grams": "7.40625",
-		"NAME OF THE ITEMS": "wheat",
-		"50 Grams": "14.8125",
-		"500 Grams": "118.5",
-		"250 Grams": "59.25",
-		"100 Grams": "29.625",
-		"1 kg": "237.0"
-	},
-	"Row 53": {
-		"25 Grams": "32.25",
-		"NAME OF THE ITEMS": "White soya",
-		"50 Grams": "64.5",
-		"500 Grams": "516.0",
-		"250 Grams": "258.0",
-		"100 Grams": "129.0",
-		"1 kg": "1032.0"
-	},
-	"Row 10": {
-		"25 Grams": "5.0625",
-		"NAME OF THE ITEMS": "Brown sundal \/ ",
-		"50 Grams": "10.125",
-		"500 Grams": "81.0",
-		"250 Grams": "40.5",
-		"100 Grams": "20.25",
-		"1 kg": "162.0"
-	},
-	"Row 11": {
-		"25 Grams": "45.84375",
-		"NAME OF THE ITEMS": "Cashew nuts",
-		"50 Grams": "91.6875",
-		"500 Grams": "733.5",
-		"250 Grams": "366.75",
-		"100 Grams": "183.375",
-		"1 kg": "1467.0"
-	},
-	"Row 12": {
-		"25 Grams": "3.609375",
-		"NAME OF THE ITEMS": "Chana dal",
-		"50 Grams": "7.21875",
-		"500 Grams": "57.75",
-		"250 Grams": "28.875",
-		"100 Grams": "14.4375",
-		"1 kg": "115.5"
-	},
-	"Row 13": {
-		"25 Grams": "93.65625",
-		"NAME OF THE ITEMS": "Charoli",
-		"50 Grams": "187.3125",
-		"500 Grams": "1498.5",
-		"250 Grams": "749.25",
-		"100 Grams": "374.625",
-		"1 kg": "2997.0"
-	},
-	"Row 14": {
-		"25 Grams": "15.140625",
-		"NAME OF THE ITEMS": "Cinammon",
-		"50 Grams": "30.28125",
-		"500 Grams": "242.25",
-		"250 Grams": "121.125",
-		"100 Grams": "60.5625",
-		"1 kg": "484.5"
-	},
-	"Row 15": {
-		"25 Grams": "38.34375",
-		"NAME OF THE ITEMS": "Cloves",
-		"50 Grams": "76.6875",
-		"500 Grams": "613.5",
-		"250 Grams": "306.75",
-		"100 Grams": "153.375",
-		"1 kg": "1227.0"
-	},
-	"Row 16": {
-		"25 Grams": "7.0546875",
-		"NAME OF THE ITEMS": "Coriander seeds",
-		"50 Grams": "14.109375",
-		"500 Grams": "112.875",
-		"250 Grams": "56.4375",
-		"100 Grams": "28.21875",
-		"1 kg": "225.75"
-	},
-	"Row 17": {
-		"25 Grams": "9.328125",
-		"NAME OF THE ITEMS": "Cumin seeds",
-		"50 Grams": "18.65625",
-		"500 Grams": "149.25",
-		"250 Grams": "74.625",
-		"100 Grams": "37.3125",
-		"1 kg": "298.5"
-	},
-	"Row 18": {
-		"25 Grams": "35.53125",
-		"NAME OF THE ITEMS": "Dry dates",
-		"50 Grams": "71.0625",
-		"500 Grams": "568.5",
-		"250 Grams": "284.25",
-		"100 Grams": "142.125",
-		"1 kg": "1137.0"
-	},
-	"Row 19": {
-		"25 Grams": "7.640625",
-		"NAME OF THE ITEMS": "Fenugreek",
-		"50 Grams": "15.28125",
-		"500 Grams": "122.25",
-		"250 Grams": "61.125",
-		"100 Grams": "30.5625",
-		"1 kg": "244.5"
-	},
-	"Row 20": {
-		"25 Grams": "4.59375",
-		"NAME OF THE ITEMS": "Foxtail millet",
-		"50 Grams": "9.1875",
-		"500 Grams": "73.5",
-		"250 Grams": "36.75",
-		"100 Grams": "18.375",
-		"1 kg": "147.0"
-	},
-	"Row 21": {
-		"25 Grams": "5.203125",
-		"NAME OF THE ITEMS": "Garlic",
-		"50 Grams": "10.40625",
-		"500 Grams": "83.25",
-		"250 Grams": "41.625",
-		"100 Grams": "20.8125",
-		"1 kg": "166.5"
-	},
-	"Row 22": {
-		"25 Grams": "84.75",
-		"NAME OF THE ITEMS": "Green Cardamom",
-		"50 Grams": "169.5",
-		"500 Grams": "1356.0",
-		"250 Grams": "678.0",
-		"100 Grams": "339.0",
-		"1 kg": "2712.0"
-	},
-	"Row 23": {
-		"25 Grams": "6.09375",
-		"NAME OF THE ITEMS": "Green gram",
-		"50 Grams": "12.1875",
-		"500 Grams": "97.5",
-		"250 Grams": "48.75",
-		"100 Grams": "24.375",
-		"1 kg": "195.0"
-	},
-	"Row 24": {
-		"25 Grams": "7.6875",
-		"NAME OF THE ITEMS": "Ground nut",
-		"50 Grams": "15.375",
-		"500 Grams": "123.0",
-		"250 Grams": "61.5",
-		"100 Grams": "30.75",
-		"1 kg": "246.0"
-	},
-	"Row 25": {
-		"25 Grams": "108.1875",
-		"NAME OF THE ITEMS": "Javithri flower",
-		"50 Grams": "216.375",
-		"500 Grams": "1731.0",
-		"250 Grams": "865.5",
-		"100 Grams": "432.75",
-		"1 kg": "3462.0"
-	},
-	"Row 26": {
-		"25 Grams": "39.75",
-		"NAME OF THE ITEMS": "Kalpasi",
-		"50 Grams": "79.5",
-		"500 Grams": "636.0",
-		"250 Grams": "318.0",
-		"100 Grams": "159.0",
-		"1 kg": "1272.0"
-	},
-	"Row 27": {
-		"25 Grams": "21.0",
-		"NAME OF THE ITEMS": "Kapok buds(Marathi moggu)",
-		"50 Grams": "42.0",
-		"500 Grams": "336.0",
-		"250 Grams": "168.0",
-		"100 Grams": "84.0",
-		"1 kg": "672.0"
-	},
-	"Row 28": {
-		"25 Grams": "16.5",
-		"NAME OF THE ITEMS": "Kashmiri red chilli",
-		"50 Grams": "33.0",
-		"500 Grams": "264.0",
-		"250 Grams": "132.0",
-		"100 Grams": "66.0",
-		"1 kg": "528.0"
-	},
-	"Row 29": {
-		"25 Grams": "10.21875",
-		"NAME OF THE ITEMS": "Kavuni rice",
-		"50 Grams": "20.4375",
-		"500 Grams": "163.5",
-		"250 Grams": "81.75",
-		"100 Grams": "40.875",
-		"1 kg": "327.0"
-	},
-	"Row 30": {
-		"25 Grams": "2.71875",
-		"NAME OF THE ITEMS": "Maize",
-		"50 Grams": "5.4375",
-		"500 Grams": "43.5",
-		"250 Grams": "21.75",
-		"100 Grams": "10.875",
-		"1 kg": "87.0"
-	},
-	"Row 31": {
-		"25 Grams": "4.3125",
-		"NAME OF THE ITEMS": "Moong dal",
-		"50 Grams": "8.625",
-		"500 Grams": "69.0",
-		"250 Grams": "34.5",
-		"100 Grams": "17.25",
-		"1 kg": "138.0"
-	},
-	"Row 32": {
-		"25 Grams": "47.25",
-		"NAME OF THE ITEMS": "Nutmeg",
-		"50 Grams": "94.5",
-		"500 Grams": "756.0",
-		"250 Grams": "378.0",
-		"100 Grams": "189.0",
-		"1 kg": "1512.0"
-	},
-	"Row 33": {
-		"25 Grams": "2.953125",
-		"NAME OF THE ITEMS": "Pearl millet",
-		"50 Grams": "5.90625",
-		"500 Grams": "47.25",
-		"250 Grams": "23.625",
-		"100 Grams": "11.8125",
-		"1 kg": "94.5"
-	},
-	"Row 34": {
-		"25 Grams": "23.8125",
-		"NAME OF THE ITEMS": "pepper",
-		"50 Grams": "47.625",
-		"500 Grams": "381.0",
-		"250 Grams": "190.5",
-		"100 Grams": "95.25",
-		"1 kg": "762.0"
-	},
-	"Row 35": {
-		"25 Grams": "84.75",
-		"NAME OF THE ITEMS": "Pista",
-		"50 Grams": "169.5",
-		"500 Grams": "1356.0",
-		"250 Grams": "678.0",
-		"100 Grams": "339.0",
-		"1 kg": "2712.0"
-	},
-	"Row 36": {
-		"25 Grams": "80.0625",
-		"NAME OF THE ITEMS": "poppy seeds",
-		"50 Grams": "160.125",
-		"500 Grams": "1281.0",
-		"250 Grams": "640.5",
-		"100 Grams": "320.25",
-		"1 kg": "2562.0"
-	},
-	"Row 37": {
-		"25 Grams": "12.0",
-		"NAME OF THE ITEMS": "Ragi",
-		"50 Grams": "24.0",
-		"500 Grams": "192.0",
-		"250 Grams": "96.0",
-		"100 Grams": "48.0",
-		"1 kg": "384.0"
-	},
-	"Row 38": {
-		"25 Grams": "7.640625",
-		"NAME OF THE ITEMS": "Red chilli",
-		"50 Grams": "15.28125",
-		"500 Grams": "122.25",
-		"250 Grams": "61.125",
-		"100 Grams": "30.5625",
-		"1 kg": "244.5"
-	},
-	"Row 39": {
-		"25 Grams": "4.125",
-		"NAME OF THE ITEMS": "Red rice",
-		"50 Grams": "8.25",
-		"500 Grams": "66.0",
-		"250 Grams": "33.0",
-		"100 Grams": "16.5",
-		"1 kg": "132.0"
-	},
-	"Row 40": {
-		"25 Grams": "4.921875",
-		"NAME OF THE ITEMS": "Rice idli",
-		"50 Grams": "9.84375",
-		"500 Grams": "78.75",
-		"250 Grams": "39.375",
-		"100 Grams": "19.6875",
-		"1 kg": "157.5"
-	},
-	"Row 41": {
-		"25 Grams": "1.078125",
-		"NAME OF THE ITEMS": "Rock salt",
-		"50 Grams": "2.15625",
-		"500 Grams": "17.25",
-		"250 Grams": "8.625",
-		"100 Grams": "4.3125",
-		"1 kg": "34.5"
-	},
-	"Row 9": {
-		"25 Grams": "42.5625",
-		"NAME OF THE ITEMS": "Black cardamom",
-		"50 Grams": "85.125",
-		"500 Grams": "681.0",
-		"250 Grams": "340.5",
-		"100 Grams": "170.25",
-		"1 kg": "1362.0"
-	},
-	"Row 42": {
-		"25 Grams": "2.34375",
-		"NAME OF THE ITEMS": "Sago",
-		"50 Grams": "4.6875",
-		"500 Grams": "37.5",
-		"250 Grams": "18.75",
-		"100 Grams": "9.375",
-		"1 kg": "75.0"
-	},
-	"Row 8": {
-		"25 Grams": "4.078125",
-		"NAME OF THE ITEMS": "Bengal gram",
-		"50 Grams": "8.15625",
-		"500 Grams": "65.25",
-		"250 Grams": "32.625",
-		"100 Grams": "16.3125",
-		"1 kg": "130.5"
-	},
-	"Row 43": {
-		"25 Grams": "6.5625",
-		"NAME OF THE ITEMS": "Samai rice",
-		"50 Grams": "13.125",
-		"500 Grams": "105.0",
-		"250 Grams": "52.5",
-		"100 Grams": "26.25",
-		"1 kg": "210.0"
-	},
-	"Row 7": {
-		"25 Grams": "21.0",
-		"NAME OF THE ITEMS": "Bay leaf",
-		"50 Grams": "42.0",
-		"500 Grams": "336.0",
-		"250 Grams": "168.0",
-		"100 Grams": "84.0",
-		"1 kg": "672.0"
-	},
-	"Row 44": {
-		"25 Grams": "11.15625",
-		"NAME OF THE ITEMS": "Sesame",
-		"50 Grams": "22.3125",
-		"500 Grams": "178.5",
-		"250 Grams": "89.25",
-		"100 Grams": "44.625",
-		"1 kg": "357.0"
-	},
-	"Row 6": {
-		"25 Grams": "9.28125",
-		"NAME OF THE ITEMS": "Barnyard millet",
-		"50 Grams": "18.5625",
-		"500 Grams": "148.5",
-		"250 Grams": "74.25",
-		"100 Grams": "37.125",
-		"1 kg": "297.0"
-	},
-	"Row 45": {
-		"25 Grams": "0.375",
-		"NAME OF THE ITEMS": "Shahi jeera",
-		"50 Grams": "0.75",
-		"500 Grams": "6.0",
-		"250 Grams": "3.0",
-		"100 Grams": "1.5",
-		"1 kg": "12.0"
-	},
-	"Row 46": {
-		"25 Grams": "72.5625",
-		"NAME OF THE ITEMS": "Star anise",
-		"50 Grams": "145.125",
-		"500 Grams": "1161.0",
-		"250 Grams": "580.5",
-		"100 Grams": "290.25",
-		"1 kg": "2322.0"
-	},
-	"Row 47": {
-		"25 Grams": "16.78125",
-		"NAME OF THE ITEMS": "Sukku(Dry ginger)",
-		"50 Grams": "33.5625",
-		"500 Grams": "268.5",
-		"250 Grams": "134.25",
-		"100 Grams": "67.125",
-		"1 kg": "537.0"
-	},
-	"Row 48": {
-		"25 Grams": "5.578125",
-		"NAME OF THE ITEMS": "Toor dal",
-		"50 Grams": "11.15625",
-		"500 Grams": "89.25",
-		"250 Grams": "44.625",
-		"100 Grams": "22.3125",
-		"1 kg": "178.5"
-	},
-	"Row 49": {
-		"25 Grams": "6.375",
-		"NAME OF THE ITEMS": "Turmeric",
-		"50 Grams": "12.75",
-		"500 Grams": "102.0",
-		"250 Grams": "51.0",
-		"100 Grams": "25.5",
-		"1 kg": "204.0"
-	},
-	"Row 5": {
-		"25 Grams": "11.8125",
-		"NAME OF THE ITEMS": "Barley",
-		"50 Grams": "23.625",
-		"500 Grams": "189.0",
-		"250 Grams": "94.5",
-		"100 Grams": "47.25",
-		"1 kg": "378.0"
-	},
-	"Row 4": {
-		"25 Grams": "70.6875",
-		"NAME OF THE ITEMS": "Badam",
-		"50 Grams": "141.375",
-		"500 Grams": "1131.0",
-		"250 Grams": "565.5",
-		"100 Grams": "282.75",
-		"1 kg": "2262.0"
-	},
-	"Row 3": {
-		"25 Grams": "49.59375",
-		"NAME OF THE ITEMS": "Asafoetida",
-		"50 Grams": "99.1875",
-		"500 Grams": "793.5",
-		"250 Grams": "396.75",
-		"100 Grams": "198.375",
-		"1 kg": "1587.0"
-	},
-	"Row 2": {
+	{
 		"25 Grams": "9.046875",
 		"NAME OF THE ITEMS": "Aniseed",
 		"50 Grams": "18.09375",
@@ -467,13 +17,463 @@
 		"100 Grams": "36.1875",
 		"1 kg": "289.5"
 	},
-	"Row 1": {
-		"25 Grams": "13.5",
-		"NAME OF THE ITEMS": "Ajwain",
-		"50 Grams": "27.0",
-		"500 Grams": "216.0",
-		"250 Grams": "108.0",
-		"100 Grams": "54.0",
-		"1 kg": "432.0"
+	{
+		"25 Grams": "49.59375",
+		"NAME OF THE ITEMS": "Asafoetida",
+		"50 Grams": "99.1875",
+		"500 Grams": "793.5",
+		"250 Grams": "396.75",
+		"100 Grams": "198.375",
+		"1 kg": "1587.0"
+	},
+	{
+		"25 Grams": "70.6875",
+		"NAME OF THE ITEMS": "Badam",
+		"50 Grams": "141.375",
+		"500 Grams": "1131.0",
+		"250 Grams": "565.5",
+		"100 Grams": "282.75",
+		"1 kg": "2262.0"
+	},
+	{
+		"25 Grams": "11.8125",
+		"NAME OF THE ITEMS": "Barley",
+		"50 Grams": "23.625",
+		"500 Grams": "189.0",
+		"250 Grams": "94.5",
+		"100 Grams": "47.25",
+		"1 kg": "378.0"
+	},
+	{
+		"25 Grams": "9.28125",
+		"NAME OF THE ITEMS": "Barnyard millet",
+		"50 Grams": "18.5625",
+		"500 Grams": "148.5",
+		"250 Grams": "74.25",
+		"100 Grams": "37.125",
+		"1 kg": "297.0"
+	},
+	{
+		"25 Grams": "21.0",
+		"NAME OF THE ITEMS": "Bay leaf",
+		"50 Grams": "42.0",
+		"500 Grams": "336.0",
+		"250 Grams": "168.0",
+		"100 Grams": "84.0",
+		"1 kg": "672.0"
+	},
+	{
+		"25 Grams": "4.078125",
+		"NAME OF THE ITEMS": "Bengal gram",
+		"50 Grams": "8.15625",
+		"500 Grams": "65.25",
+		"250 Grams": "32.625",
+		"100 Grams": "16.3125",
+		"1 kg": "130.5"
+	},
+	{
+		"25 Grams": "42.5625",
+		"NAME OF THE ITEMS": "Black cardamom",
+		"50 Grams": "85.125",
+		"500 Grams": "681.0",
+		"250 Grams": "340.5",
+		"100 Grams": "170.25",
+		"1 kg": "1362.0"
+	},
+	{
+		"25 Grams": "5.0625",
+		"NAME OF THE ITEMS": "Brown sundal \/ ",
+		"50 Grams": "10.125",
+		"500 Grams": "81.0",
+		"250 Grams": "40.5",
+		"100 Grams": "20.25",
+		"1 kg": "162.0"
+	},
+	{
+		"25 Grams": "45.84375",
+		"NAME OF THE ITEMS": "Cashew nuts",
+		"50 Grams": "91.6875",
+		"500 Grams": "733.5",
+		"250 Grams": "366.75",
+		"100 Grams": "183.375",
+		"1 kg": "1467.0"
+	},
+	{
+		"25 Grams": "3.609375",
+		"NAME OF THE ITEMS": "Chana dal",
+		"50 Grams": "7.21875",
+		"500 Grams": "57.75",
+		"250 Grams": "28.875",
+		"100 Grams": "14.4375",
+		"1 kg": "115.5"
+	},
+	{
+		"25 Grams": "93.65625",
+		"NAME OF THE ITEMS": "Charoli",
+		"50 Grams": "187.3125",
+		"500 Grams": "1498.5",
+		"250 Grams": "749.25",
+		"100 Grams": "374.625",
+		"1 kg": "2997.0"
+	},
+	{
+		"25 Grams": "15.140625",
+		"NAME OF THE ITEMS": "Cinammon",
+		"50 Grams": "30.28125",
+		"500 Grams": "242.25",
+		"250 Grams": "121.125",
+		"100 Grams": "60.5625",
+		"1 kg": "484.5"
+	},
+	{
+		"25 Grams": "38.34375",
+		"NAME OF THE ITEMS": "Cloves",
+		"50 Grams": "76.6875",
+		"500 Grams": "613.5",
+		"250 Grams": "306.75",
+		"100 Grams": "153.375",
+		"1 kg": "1227.0"
+	},
+	{
+		"25 Grams": "7.0546875",
+		"NAME OF THE ITEMS": "Coriander seeds",
+		"50 Grams": "14.109375",
+		"500 Grams": "112.875",
+		"250 Grams": "56.4375",
+		"100 Grams": "28.21875",
+		"1 kg": "225.75"
+	},
+	{
+		"25 Grams": "9.328125",
+		"NAME OF THE ITEMS": "Cumin seeds",
+		"50 Grams": "18.65625",
+		"500 Grams": "149.25",
+		"250 Grams": "74.625",
+		"100 Grams": "37.3125",
+		"1 kg": "298.5"
+	},
+	{
+		"25 Grams": "35.53125",
+		"NAME OF THE ITEMS": "Dry dates",
+		"50 Grams": "71.0625",
+		"500 Grams": "568.5",
+		"250 Grams": "284.25",
+		"100 Grams": "142.125",
+		"1 kg": "1137.0"
+	},
+	{
+		"25 Grams": "7.640625",
+		"NAME OF THE ITEMS": "Fenugreek",
+		"50 Grams": "15.28125",
+		"500 Grams": "122.25",
+		"250 Grams": "61.125",
+		"100 Grams": "30.5625",
+		"1 kg": "244.5"
+	},
+	{
+		"25 Grams": "4.59375",
+		"NAME OF THE ITEMS": "Foxtail millet",
+		"50 Grams": "9.1875",
+		"500 Grams": "73.5",
+		"250 Grams": "36.75",
+		"100 Grams": "18.375",
+		"1 kg": "147.0"
+	},
+	{
+		"25 Grams": "5.203125",
+		"NAME OF THE ITEMS": "Garlic",
+		"50 Grams": "10.40625",
+		"500 Grams": "83.25",
+		"250 Grams": "41.625",
+		"100 Grams": "20.8125",
+		"1 kg": "166.5"
+	},
+	{
+		"25 Grams": "84.75",
+		"NAME OF THE ITEMS": "Green Cardamom",
+		"50 Grams": "169.5",
+		"500 Grams": "1356.0",
+		"250 Grams": "678.0",
+		"100 Grams": "339.0",
+		"1 kg": "2712.0"
+	},
+	{
+		"25 Grams": "6.09375",
+		"NAME OF THE ITEMS": "Green gram",
+		"50 Grams": "12.1875",
+		"500 Grams": "97.5",
+		"250 Grams": "48.75",
+		"100 Grams": "24.375",
+		"1 kg": "195.0"
+	},
+	{
+		"25 Grams": "7.6875",
+		"NAME OF THE ITEMS": "Ground nut",
+		"50 Grams": "15.375",
+		"500 Grams": "123.0",
+		"250 Grams": "61.5",
+		"100 Grams": "30.75",
+		"1 kg": "246.0"
+	},
+	{
+		"25 Grams": "108.1875",
+		"NAME OF THE ITEMS": "Javithri flower",
+		"50 Grams": "216.375",
+		"500 Grams": "1731.0",
+		"250 Grams": "865.5",
+		"100 Grams": "432.75",
+		"1 kg": "3462.0"
+	},
+	{
+		"25 Grams": "39.75",
+		"NAME OF THE ITEMS": "Kalpasi",
+		"50 Grams": "79.5",
+		"500 Grams": "636.0",
+		"250 Grams": "318.0",
+		"100 Grams": "159.0",
+		"1 kg": "1272.0"
+	},
+	{
+		"25 Grams": "21.0",
+		"NAME OF THE ITEMS": "Kapok buds(Marathi moggu)",
+		"50 Grams": "42.0",
+		"500 Grams": "336.0",
+		"250 Grams": "168.0",
+		"100 Grams": "84.0",
+		"1 kg": "672.0"
+	},
+	{
+		"25 Grams": "16.5",
+		"NAME OF THE ITEMS": "Kashmiri red chilli",
+		"50 Grams": "33.0",
+		"500 Grams": "264.0",
+		"250 Grams": "132.0",
+		"100 Grams": "66.0",
+		"1 kg": "528.0"
+	},
+	{
+		"25 Grams": "10.21875",
+		"NAME OF THE ITEMS": "Kavuni rice",
+		"50 Grams": "20.4375",
+		"500 Grams": "163.5",
+		"250 Grams": "81.75",
+		"100 Grams": "40.875",
+		"1 kg": "327.0"
+	},
+	{
+		"25 Grams": "2.71875",
+		"NAME OF THE ITEMS": "Maize",
+		"50 Grams": "5.4375",
+		"500 Grams": "43.5",
+		"250 Grams": "21.75",
+		"100 Grams": "10.875",
+		"1 kg": "87.0"
+	},
+	{
+		"25 Grams": "4.3125",
+		"NAME OF THE ITEMS": "Moong dal",
+		"50 Grams": "8.625",
+		"500 Grams": "69.0",
+		"250 Grams": "34.5",
+		"100 Grams": "17.25",
+		"1 kg": "138.0"
+	},
+	{
+		"25 Grams": "47.25",
+		"NAME OF THE ITEMS": "Nutmeg",
+		"50 Grams": "94.5",
+		"500 Grams": "756.0",
+		"250 Grams": "378.0",
+		"100 Grams": "189.0",
+		"1 kg": "1512.0"
+	},
+	{
+		"25 Grams": "2.953125",
+		"NAME OF THE ITEMS": "Pearl millet",
+		"50 Grams": "5.90625",
+		"500 Grams": "47.25",
+		"250 Grams": "23.625",
+		"100 Grams": "11.8125",
+		"1 kg": "94.5"
+	},
+	{
+		"25 Grams": "23.8125",
+		"NAME OF THE ITEMS": "pepper",
+		"50 Grams": "47.625",
+		"500 Grams": "381.0",
+		"250 Grams": "190.5",
+		"100 Grams": "95.25",
+		"1 kg": "762.0"
+	},
+	{
+		"25 Grams": "84.75",
+		"NAME OF THE ITEMS": "Pista",
+		"50 Grams": "169.5",
+		"500 Grams": "1356.0",
+		"250 Grams": "678.0",
+		"100 Grams": "339.0",
+		"1 kg": "2712.0"
+	},
+	{
+		"25 Grams": "80.0625",
+		"NAME OF THE ITEMS": "poppy seeds",
+		"50 Grams": "160.125",
+		"500 Grams": "1281.0",
+		"250 Grams": "640.5",
+		"100 Grams": "320.25",
+		"1 kg": "2562.0"
+	},
+	{
+		"25 Grams": "12.0",
+		"NAME OF THE ITEMS": "Ragi",
+		"50 Grams": "24.0",
+		"500 Grams": "192.0",
+		"250 Grams": "96.0",
+		"100 Grams": "48.0",
+		"1 kg": "384.0"
+	},
+	{
+		"25 Grams": "7.640625",
+		"NAME OF THE ITEMS": "Red chilli",
+		"50 Grams": "15.28125",
+		"500 Grams": "122.25",
+		"250 Grams": "61.125",
+		"100 Grams": "30.5625",
+		"1 kg": "244.5"
+	},
+	{
+		"25 Grams": "4.125",
+		"NAME OF THE ITEMS": "Red rice",
+		"50 Grams": "8.25",
+		"500 Grams": "66.0",
+		"250 Grams": "33.0",
+		"100 Grams": "16.5",
+		"1 kg": "132.0"
+	},
+	{
+		"25 Grams": "4.921875",
+		"NAME OF THE ITEMS": "Rice idli",
+		"50 Grams": "9.84375",
+		"500 Grams": "78.75",
+		"250 Grams": "39.375",
+		"100 Grams": "19.6875",
+		"1 kg": "157.5"
+	},
+	{
+		"25 Grams": "1.078125",
+		"NAME OF THE ITEMS": "Rock salt",
+		"50 Grams": "2.15625",
+		"500 Grams": "17.25",
+		"250 Grams": "8.625",
+		"100 Grams": "4.3125",
+		"1 kg": "34.5"
+	},
+	{
+		"25 Grams": "2.34375",
+		"NAME OF THE ITEMS": "Sago",
+		"50 Grams": "4.6875",
+		"500 Grams": "37.5",
+		"250 Grams": "18.75",
+		"100 Grams": "9.375",
+		"1 kg": "75.0"
+	},
+	{
+		"25 Grams": "6.5625",
+		"NAME OF THE ITEMS": "Samai rice",
+		"50 Grams": "13.125",
+		"500 Grams": "105.0",
+		"250 Grams": "52.5",
+		"100 Grams": "26.25",
+		"1 kg": "210.0"
+	},
+	{
+		"25 Grams": "11.15625",
+		"NAME OF THE ITEMS": "Sesame",
+		"50 Grams": "22.3125",
+		"500 Grams": "178.5",
+		"250 Grams": "89.25",
+		"100 Grams": "44.625",
+		"1 kg": "357.0"
+	},
+	{
+		"25 Grams": "0.375",
+		"NAME OF THE ITEMS": "Shahi jeera",
+		"50 Grams": "0.75",
+		"500 Grams": "6.0",
+		"250 Grams": "3.0",
+		"100 Grams": "1.5",
+		"1 kg": "12.0"
+	},
+	{
+		"25 Grams": "72.5625",
+		"NAME OF THE ITEMS": "Star anise",
+		"50 Grams": "145.125",
+		"500 Grams": "1161.0",
+		"250 Grams": "580.5",
+		"100 Grams": "290.25",
+		"1 kg": "2322.0"
+	},
+	{
+		"25 Grams": "16.78125",
+		"NAME OF THE ITEMS": "Sukku(Dry ginger)",
+		"50 Grams": "33.5625",
+		"500 Grams": "268.5",
+		"250 Grams": "134.25",
+		"100 Grams": "67.125",
+		"1 kg": "537.0"
+	},
+	{
+		"25 Grams": "5.578125",
+		"NAME OF THE ITEMS": "Toor dal",
+		"50 Grams": "11.15625",
+		"500 Grams": "89.25",
+		"250 Grams": "44.625",
+		"100 Grams": "22.3125",
+		"1 kg": "178.5"
+	},
+	{
+		"25 Grams": "6.375",
+		"NAME OF THE ITEMS": "Turmeric",
+		"50 Grams": "12.75",
+		"500 Grams": "102.0",
+		"250 Grams": "51.0",
+		"100 Grams": "25.5",
+		"1 kg": "204.0"
+	},
+	{
+		"25 Grams": "5.4140625",
+		"NAME OF THE ITEMS": "Urad dal",
+		"50 Grams": "10.828125",
+		"500 Grams": "86.625",
+		"250 Grams": "43.3125",
+		"100 Grams": "21.65625",
+		"1 kg": "173.25"
+	},
+	{
+		"25 Grams": "73.03125",
+		"NAME OF THE ITEMS": "Walnut",
+		"50 Grams": "146.0625",
+		"500 Grams": "1168.5",
+		"250 Grams": "584.25",
+		"100 Grams": "292.125",
+		"1 kg": "2337.0"
+	},
+	{
+		"25 Grams": "7.40625",
+		"NAME OF THE ITEMS": "wheat",
+		"50 Grams": "14.8125",
+		"500 Grams": "118.5",
+		"250 Grams": "59.25",
+		"100 Grams": "29.625",
+		"1 kg": "237.0"
+	},
+	{
+		"25 Grams": "32.25",
+		"NAME OF THE ITEMS": "White soya",
+		"50 Grams": "64.5",
+		"500 Grams": "516.0",
+		"250 Grams": "258.0",
+		"100 Grams": "129.0",
+		"1 kg": "1032.0"
 	}
-}
+]

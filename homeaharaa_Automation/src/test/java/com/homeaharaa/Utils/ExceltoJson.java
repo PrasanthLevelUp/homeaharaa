@@ -3,6 +3,7 @@ package com.homeaharaa.Utils;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -19,12 +20,14 @@ import org.json.simple.JSONObject;
 
 public class ExceltoJson {
 	static Workbook excelWorkBook;
+
 	public static void main(String[] args) {
 		// You can specify your excel file path.
-		String excelFilePath = "./src/main/resources/SellingPRICEOFEACHPRODUCT Full.xlsx";
+		String excelFilePath = "./src/main/resources/Price Shipping Cost.xlsx";
 		// This method will read each sheet data from above excel file and create a JSON
 		// and a text file to save the sheet data.
 		creteJSONAndTextFileFromExcel(excelFilePath);
+
 	}
 
 	/*
@@ -42,7 +45,7 @@ public class ExceltoJson {
 			 * Because this example use .xls excel file format, so it should use
 			 * HSSFWorkbook class. For .xlsx format excel file use XSSFWorkbook class.
 			 */;
-			 excelWorkBook = new XSSFWorkbook(fInputStream);
+			excelWorkBook = new XSSFWorkbook(fInputStream);
 			// Get all excel sheet count.
 			int totalSheetNumber = excelWorkBook.getNumberOfSheets();
 			// Loop in all excel sheet.
@@ -85,7 +88,7 @@ public class ExceltoJson {
 		int lastRowNum = sheet.getLastRowNum();
 		if (lastRowNum > 0) {
 			// Loop in sheet rows.
-			for (int i = firstRowNum; i < lastRowNum+1; i++) {
+			for (int i = firstRowNum; i < lastRowNum + 1; i++) {
 				// Get current row object.
 				Row row = sheet.getRow(i);
 				// Get first and last cell number.
@@ -113,7 +116,7 @@ public class ExceltoJson {
 					case STRING:
 						String cellValue = cell.getStringCellValue();
 						rowDataList.add(cellValue);
-						System.out.println(cellValue);			
+						System.out.println(cellValue);
 						break;
 					case BOOLEAN:
 						boolean numberValue1 = cell.getBooleanCellValue();
@@ -122,14 +125,14 @@ public class ExceltoJson {
 						System.out.println(stringCellValue1);
 						break;
 					case FORMULA:
-						FormulaEvaluator evaluator = excelWorkBook.getCreationHelper().createFormulaEvaluator(); 
+						FormulaEvaluator evaluator = excelWorkBook.getCreationHelper().createFormulaEvaluator();
 						evaluator.evaluateFormulaCell(cell);
 						double numberValue2 = cell.getNumericCellValue();
 						String stringCellValue2 = BigDecimal.valueOf(numberValue2).toPlainString();
 						rowDataList.add(stringCellValue2);
 						System.out.println(stringCellValue2);
 						break;
-						
+
 					case BLANK:
 						System.out.println("Blank Data");
 						break;
@@ -139,8 +142,8 @@ public class ExceltoJson {
 					}
 				}
 				// Add current row data list in the return list.
-				if(!rowDataList.isEmpty()) {
-				ret.add(rowDataList);
+				if (!rowDataList.isEmpty()) {
+					ret.add(rowDataList);
 				}
 			}
 		}
@@ -155,7 +158,8 @@ public class ExceltoJson {
 			int rowCount = dataTable.size();
 			if (rowCount > 1) {
 				// Create a JSONObject to store table data.
-				JSONObject tableJsonObject = new JSONObject();
+				// JSONObject tableJsonObject = new JSONObject();
+				List<JSONObject> jsonObject = new ArrayList<JSONObject>();
 				// The first row is the header row, store each column name.
 				List<String> headerRow = dataTable.get(0);
 				int columnCount = headerRow.size();
@@ -170,10 +174,12 @@ public class ExceltoJson {
 						String columnValue = dataRow.get(j);
 						rowJsonObject.put(columnName, columnValue);
 					}
-					tableJsonObject.put("Row " + i, rowJsonObject);
+					// tableJsonObject.put("Row " + i, rowJsonObject);
+					jsonObject.add(rowJsonObject);
 				}
 				// Return string format data of JSONObject object.
-				ret = tableJsonObject.toString();
+				// ret = tableJsonObject.toString();
+				ret = jsonObject.toString();
 			}
 		}
 		return ret;

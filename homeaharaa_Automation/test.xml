@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Suite">
+  <test thread-count="2" parallel="classes" name="Test">
+    <classes>
+      <class name="com.homeaharaa.TestRunner.web.TC1_UtensilsPriceValidation"/>
+      <class name="com.homeaharaa.TestRunner.web.TC1_papadshippingprice"/>
+      <class name="com.homeaharaa.TestRunner.web.TC1_ReadymadePriceValidation"/>
+      <class name="com.homeaharaa.TestRunner.web.TC1_BuyPapaditem"/>
+      <class name="com.homeaharaa.TestRunner.web.TC1_RegistNewUser"/>
+      <class name="com.homeaharaa.TestRunner.web.TC1_GroceriesPriceValidation"/>
+      <class name="com.homeaharaa.TestRunner.web.TC2_Registratino_Form"/>
+      <class name="com.homeaharaa.TestRunner.web.TC1_Validate_Login"/>
+      <class name="com.homeaharaa.TestRunner.web.TC1_BuySnackitem"/>
+      <class name="com.homeaharaa.TestRunner.web.TC_ReadymadePowders"/>
+      <class name="com.homeaharaa.TestRunner.web.TC1_SweetPriceValidation"/>
+      <class name="com.homeaharaa.TestRunner.Grouping"/>
+      <class name="com.homeaharaa.TestRunner.web.TC1_PapadPriceValidation"/>
+      <class name="com.homeaharaa.TestRunner.web.TC1_snackshippingprice"/>
+      <class name="com.homeaharaa.TestRunner.web.TC1_LoginValidation"/>
+      <class name="com.homeaharaa.TestRunner.Annotations"/>
+      <class name="com.homeaharaa.TestRunner.web.TC1_SnacksPriceValidation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -66,7 +66,7 @@ public class TestBase {
 		return dest;
 	}
 
-	@BeforeTest(groups = { "Regression" })
+	//@BeforeTest(groups = { "Regression" })
 	public void Reportsetup() {
 		try {
 			this.loadpropertyfile();
@@ -82,7 +82,7 @@ public class TestBase {
 		}
 	}
 
-	@AfterMethod(groups = { "Regression" })
+	//@AfterMethod(groups = { "Regression" })
 	public void getReport(ITestResult result) {
 		try {
 			String screnshotpath = takeScreenshot(driver);
@@ -104,7 +104,7 @@ public class TestBase {
 		}
 	}
 
-	@AfterTest(groups = { "Regression" })
+	//@AfterTest(groups = { "Regression" })
 	public void endTest() {
 		report.flush();
 		report.close();
